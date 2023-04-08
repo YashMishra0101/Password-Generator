@@ -1,4 +1,4 @@
-console.log('checking')
+//This code needs some improvement.  This code has one feature called setIndicator, whose JavaScript and CSS code is only half written.
 const inputSlider=document.querySelector("[data-lengthSlider]");
 const lengthDisplay=document.querySelector("[data-lengthNumber]")
 
@@ -130,14 +130,9 @@ let handelSlider=()=>{
    })
 
  copyBtn.addEventListener('click',()=>{
-   if(lengthDisplay.innerHTML>=8){
+   if(lengthDisplay.innerHTML){
       copyContent();
-   }
-      else{
-         copyMsg.innerText="At 8 Char Password";
-      }
-   }
- );
+   }});
 
  generateBtn.addEventListener('click',()=>{
    if(checkCount<=0) return;

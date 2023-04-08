@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Password Generator</title>
+    <link rel="shortcut icon" href="./GettyImages-901412996-scaled-e1650398409723.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div style="background-color: aqua;" class="wrapper">
-
+    <div class="wrapper">
+        <!-- This code needs some improvement.  This code has one feature called setIndicator, whose JavaScript and CSS code is only half written -->
         <div class="mainContainer">
             <h3>Password Generator</h3>
-            
+            <div class="circle1"></div>
+            <div class="circle2"></div>
             <div data-copy>
-                <input readonly class="display" type="password" placeholder="Password" data-passwordDisplay>
-                <i data-copyMsg class="fa-solid fa-copy"></i>
+                <input readonly class="display"  placeholder="Password" data-passwordDisplay>
+                <i data-copyMsg class=" fa-solid fa-copy"></i>
             </div>
 
             <div class="inputArea">
                 
-                <div>
+                <div class="passwordlenth">
                    <p> Password Length <span data-lengthNumber>0</span></p>
                 </div>
 
@@ -52,7 +59,7 @@
             </div>
             
            <div class="bottomArea">
-             <p class="strength">Strength</p>
+             <p class="strength"></p>
              <div data-indicator></div>
              <button class="generateButton">Generate Password</button>
            </div>
