@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div style="background-color: aqua;" class="wrapper">
 
         <div class="mainContainer">
+            <h3>Password Generator</h3>
             
             <div data-copy>
-                <h3>Password Generator</h3>
-                <input readonly type="password" id="pass" name="password" placeholder="Password" data-passwordDisplay> 
+                <input readonly class="display" type="password" placeholder="Password" data-passwordDisplay>
                 <i data-copyMsg class="fa-solid fa-copy"></i>
             </div>
 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div>
-                    <input type="range" id="passwordLength" name="passwordLength" min="0" max="20" data-lengthSlider>
+                    <input type="range" id="passwordLength" name="passwordLength" min="0" max="25" data-lengthSlider>
                 </div>
             </div>
             
@@ -54,7 +54,7 @@
            <div class="bottomArea">
              <p class="strength">Strength</p>
              <div data-indicator></div>
-             <button class="genrateButton">Generate Password</button>
+             <button class="generateButton">Generate Password</button>
            </div>
         
         </div>
@@ -65,3 +65,4 @@
 
 </body>
 </html>
+
