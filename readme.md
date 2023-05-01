@@ -26,6 +26,14 @@ To use the password generator, simply open the `index.html` file in your preferr
 - CSS
 - JavaScript
 
-## Feedback
+## Contributing 
 
-Your feedback is important to me! If you have any suggestions, bug reports, or other feedback, please feel free to open an issue or submit a pull request.
+If you would like to contribute to in this , please open an issue or submit a pull request. All contributions are welcome!
+
+
+## Contact 
+
+If you have any questions or suggestions, please feel free to contact me on:
+
+- LinkedIn: https://www.linkedin.com/in/yash-mishra-356280223
+- Twitter: https://twitter.com/YashRKMishra1t.
